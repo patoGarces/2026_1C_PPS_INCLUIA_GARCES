@@ -8,12 +8,41 @@ Los estudiantes deben **usar este repo como base** (fork o “Use this template�
 
 ---
 
+## 📛 Naming del repositorio (OBLIGATORIO)
+
+El nombre del repositorio debe seguir este esquema:
+
+**`ANIO_CUATRIMESTRE_TIPO_PROYECTO_APELLIDOS`**
+
+Donde:
+- **ANIO**: año de cursada (ej. `2026`)
+- **CUATRIMESTRE**: `1C` o `2C`
+- **TIPO**: `PPS` o `PF` (Proyecto Final)
+- **PROYECTO**: nombre corto *sin espacios* (recomendado: `kebab-case` o `CamelCase`)
+- **APELLIDOS**: apellidos de integrantes separados por `_` (sin tildes, sin ñ)
+
+✅ Ejemplos:
+- `2026_1C_PPS_ComederoSmart_Salto_Vazquez`
+- `2026_2C_PF_MecaChess_Duarte_Diaz`
+- `2025_2C_PPS_Escaner3D_DalleRivePrieto_Labreniuk`
+
+> Nota: GitHub **no permite** usar “/” en el nombre del repositorio.  
+> Por eso se usa **TIPO = PPS o PF** como campo separado.
+
+---
+
 ## 🧩 Cómo usar esta plantilla (estudiantes)
-1. Crear tu repositorio desde esta plantilla:
+
+0) **Crear el repo con el nombre correcto (OBLIGATORIO)**  
+   Esquema: `ANIO_CUATRIMESTRE_TIPO_PROYECTO_APELLIDOS`
+
+1) Crear tu repositorio desde esta plantilla:
    - Opción A (recomendada): **Use this template** → Create a new repository  
    - Opción B: **Fork**
-2. Editar este archivo `README.md` completando todos los campos `[ ... ]`.
-3. Subir archivos a las carpetas correspondientes:
+
+2) Editar este archivo `README.md` completando todos los campos `[ ... ]`.
+
+3) Subir archivos a las carpetas correspondientes:
    - Código en `CODIGO/`
    - Planos y esquemas en `PLANOS/`
    - Fotos / videos en `MULTIMEDIA/`
@@ -23,7 +52,8 @@ Los estudiantes deben **usar este repo como base** (fork o “Use this template�
 ---
 
 ## ✅ Checklist de entrega
-- [ ] Título, autores, materia y año completos
+- [ ] Naming correcto del repo: `ANIO_CUATRIMESTRE_TIPO_PROYECTO_APELLIDOS`
+- [ ] Título, autores, materia, **tipo (PPS/PF)**, año y cuatrimestre completos
 - [ ] Brief completo (one-liner + pitch + problema + solución + alcance + estado)
 - [ ] Instrucciones de uso reproducibles (otro puede correrlo)
 - [ ] Lista de componentes con cantidades y modelos
@@ -34,15 +64,19 @@ Los estudiantes deben **usar este repo como base** (fork o “Use this template�
 ---
 
 # [TÍTULO DEL PROYECTO]
+
+**Tipo:** [PPS | PF]  
+**Año:** [2026] — **Cuatrimestre:** [1C | 2C]  
+
 **Carrera:** Ingeniería Mecatrónica  
 **Materia / Curso:** [NOMBRE_DE_LA_MATERIA]  
 **Docente / Cátedra:** [NOMBRE_DOCENTE]  
-**Autor/es:** [APELLIDO, Nombre — Legajo] · [APELLIDO, Nombre — Legajo]  
-**Año:** [2026]  
+**Autor/es:** [APELLIDO, Nombre — Legajo] · [APELLIDO, Nombre — Legajo]
 
 ---
 
 ## Introducción / Objetivo
+
 **Contexto (2–4 líneas):**  
 [Describir contexto general y necesidad.]
 
@@ -80,7 +114,8 @@ Los estudiantes deben **usar este repo como base** (fork o “Use this template�
 [Qué hace el proyecto + para quién + beneficio principal.]
 
 **Elevator pitch (30 segundos):**  
-Este proyecto **[nombre del proyecto]** resuelve **[problema]** mediante **[solución]**. Está orientado a **[público objetivo]** y permite **[beneficio medible]**.  
+Este proyecto **[nombre del proyecto]** (tipo **[PPS/PF]**, **[AÑO] [CUATRIMESTRE]**) resuelve **[problema]** mediante **[solución]**.  
+Está orientado a **[público objetivo]** y permite **[beneficio medible]**.  
 Se implementa con **[tecnologías clave]** y se valida mediante **[pruebas/mediciones/demo]**.
 
 ### Problema
@@ -125,6 +160,7 @@ Se implementa con **[tecnologías clave]** y se valida mediante **[pruebas/medic
 ---
 
 ## Arquitectura del sistema
+
 **Entradas (sensores / señales):**
 - [Sensor 1]
 - [Sensor 2]
@@ -140,7 +176,7 @@ Se implementa con **[tecnologías clave]** y se valida mediante **[pruebas/medic
 - [Pantalla / dashboard / app / web]
 
 > (Opcional) Insertar diagrama:
-`![Diagrama de bloques](PLANOS/diagrama_bloques.png)`
+![Diagrama de bloques](PLANOS/diagrama_bloques.png)
 
 ---
 
@@ -217,3 +253,11 @@ Contacto (opcional): [mail / LinkedIn]
 
 ## Licencia
 [Definir según la cátedra: MIT / uso académico / etc.]
+
+---
+
+## About (descripción corta del repositorio)
+
+Usar este texto (o similar) en el campo **About** de GitHub:
+
+**[PPS | PF] — [Proyecto] — FI-UNLZ — [2026] [1C|2C] — [Apellido1, Apellido2]**
