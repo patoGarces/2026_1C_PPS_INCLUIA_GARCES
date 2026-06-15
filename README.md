@@ -6,7 +6,6 @@
 
 <p align="center">
   <b>Práctica Profesional Supervisada – Ingeniería Mecatrónica</b><br>
-  <b>Universidad Nacional de Lomas de Zamora – Facultad de Ingeniería</b>
 </p>
 
 <br>
@@ -14,7 +13,6 @@
 **Tipo:** Práctica Profesional Supervisada (PPS)  
 **Año académico:** 2026 – 1° Cuatrimestre  
 **Carrera:** Ingeniería Mecatrónica  
-**Materia:** Prácticas Profesionales Supervisadas  
 **Docente:** Cristian Lukaszewicz  
 **Autor:** Patricio Garcés
 
@@ -148,7 +146,9 @@ Se incorporaron distintas opciones de visualización.
 
 Permite adaptar la lectura a las necesidades de cada usuario.
 
-![Cambio de tamaño de letra](Multimedia/Ajustes-font.gif)
+<p align="center">
+  <img src="Multimedia/Videos/Ajustes-font.gif" width="250"/>
+</p>
 
 #### Modos de visualización
 
@@ -162,7 +162,9 @@ Los modos disponibles son:
 
 La siguiente animación muestra el cambio entre los distintos modos de visualización implementados:
 
-![Modos de visualización](Multimedia/Ajustes-contraste.gif)
+<p align="center">
+  <img src="Multimedia/Videos/Ajustes-contraste.gif" width="250"/>
+</p>
 
 #### Persistencia de preferencias
 
@@ -194,13 +196,22 @@ Las tareas realizadas incluyeron:
 
 Video demostrativo del proceso de instalación y utilización de la aplicación como PWA:
 
-[![Ver video de instalación PWA](https://img.youtube.com/vi/n4hEityrUS8/maxresdefault.jpg)](https://youtube.com/shorts/n4hEityrUS8)
+<p align="center">
+  <img src="Multimedia/Videos/Instalacion-PWA.gif" width="250"/>
+</p>
+<p align="center">
+  <i>Proceso de instalación de PWA en Android</i>
+</p>
 
 #### Ejecución como aplicación instalada
 
-![PWA ejecutándose en macOS](Multimedia/Capturas/Webapp%20MACOS.jpeg)
+<p align="center">
+  <img src="Multimedia/Capturas/Webapp%20MACOS.jpeg" width="600"/>
+</p>
 
-La imagen muestra la aplicación ejecutándose como una Progressive Web App instalada en macOS, funcionando de manera independiente del navegador y validando correctamente la configuración del manifest y los service workers.
+<p align="center">
+  <i>La imagen muestra la aplicación ejecutándose como una Progressive Web App instalada en macOS, funcionando de manera independiente del navegador y validando correctamente la configuración del manifest y los service workers.</i>
+</p>
 
 ---
 
@@ -296,7 +307,6 @@ Las evidencias gráficas y material audiovisual generado durante las pruebas se 
 ## Autor
 
 **Patricio Garcés**
-Ingeniería Mecatrónica – Facultad de Ingeniería – Universidad Nacional de Lomas de Zamora
 
 ---
 
