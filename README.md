@@ -75,8 +75,7 @@ Las principales funcionalidades incorporadas fueron:
 * Visualización instantánea de subtítulos.
 * Historial de transcripciones.
 * Ajuste de tamaño de letra.
-* Modo de alto contraste.
-* Modo OLED para pantallas AMOLED.
+* Tres modos distintos de contraste
 * Persistencia de preferencias del usuario.
 * Compatibilidad con dispositivos móviles, tablets y computadoras.
 * Soporte para instalación como Progressive Web App (PWA).
@@ -126,7 +125,7 @@ Próximamente se prevé realizar validaciones en entornos educativos reales y co
 
 El frontend fue desarrollado utilizando HTML, CSS y JavaScript, comunicándose con el backend mediante Socket.IO para recibir eventos de subtitulado en tiempo real.
 
-Durante el desarrollo se trabajó principalmente sobre tres ejes.
+Durante el desarrollo se trabajó principalmente sobre tres ejes:
 
 ### Experiencia de usuario
 
@@ -150,7 +149,7 @@ Permite adaptar la lectura a las necesidades de cada usuario.
   <img src="Multimedia/Videos/Ajustes-font.gif" width="250"/>
 </p>
 
-#### Modos de visualización
+#### Ajustes de contraste
 
 La interfaz incorpora distintos esquemas visuales seleccionables desde el menú de configuración, permitiendo adaptar la experiencia de lectura según las preferencias y necesidades de cada usuario.
 
@@ -158,7 +157,7 @@ Los modos disponibles son:
 
 * **Modo estándar:** esquema visual equilibrado para uso general.
 * **Modo de alto contraste:** maximiza la diferenciación entre texto y fondo para mejorar la legibilidad.
-* **Modo OLED:** utiliza fondo completamente negro, optimizado para pantallas OLED y AMOLED, reduciendo el consumo energético y mejorando el confort visual durante usos prolongados.
+* **Modo OLED:** utiliza fondo completamente negro, reduciendo el consumo energético y mejorando el confort visual durante usos prolongados.
 
 La siguiente animación muestra el cambio entre los distintos modos de visualización implementados:
 
@@ -181,7 +180,7 @@ Se realizaron tareas de validación y corrección relacionadas con:
 
 ### Conversión a PWA
 
-Se incorporaron las capacidades necesarias para permitir la instalación de la aplicación como Progressive Web App (PWA), facilitando el acceso desde dispositivos móviles y computadoras sin necesidad de utilizar un navegador de forma convencional.
+Se incorporaron las configuraciones necesarias para permitir la instalación de la aplicación como Progressive Web App (PWA), facilitando el acceso desde dispositivos móviles y computadoras sin necesidad de utilizar un navegador de forma convencional.
 
 Las tareas realizadas incluyeron:
 
