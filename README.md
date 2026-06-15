@@ -10,11 +10,10 @@
 
 <br>
 
-**Tipo:** Práctica Profesional Supervisada (PPS)  
+**Tipo de proyecto:** Práctica Profesional Supervisada (PPS)  
 **Año académico:** 2026 – 1° Cuatrimestre  
 **Carrera:** Ingeniería Mecatrónica  
 **Docente:** Cristian Lukaszewicz  
-**Autor:** Patricio Garcés
 
 ---
 
@@ -75,7 +74,7 @@ Las principales funcionalidades incorporadas fueron:
 * Visualización instantánea de subtítulos.
 * Historial de transcripciones.
 * Ajuste de tamaño de letra.
-* Tres modos distintos de contraste
+* Tres modos de visualización
 * Persistencia de preferencias del usuario.
 * Compatibilidad con dispositivos móviles, tablets y computadoras.
 * Soporte para instalación como Progressive Web App (PWA).
@@ -299,13 +298,14 @@ Las pruebas incluyeron:
 * Compatibilidad visual.
 * Estabilidad de conexión.
 
-Las evidencias gráficas y material audiovisual generado durante las pruebas se encuentran disponibles dentro del directorio `Multimedia/`.
+Las evidencias de validación (capturas y material audiovisual) se encuentran disponibles dentro del directorio Multimedia/, incluyendo pruebas en distintos sistemas operativos y dispositivos.
 
 ---
 
 ## Autor
 
-**Patricio Garcés**
+**Patricio Garcés**  
+Ingeniería Mecatrónica – Facultad de Ingeniería – UNLZ
 
 ---
 
