@@ -171,15 +171,28 @@ Se realizaron tareas de validación y corrección relacionadas con:
 
 ### Conversión a PWA
 
-Se incorporaron las capacidades necesarias para permitir la instalación de la aplicación como Progressive Web App.
+Se incorporaron las capacidades necesarias para permitir la instalación de la aplicación como Progressive Web App (PWA), facilitando el acceso desde dispositivos móviles y computadoras sin necesidad de utilizar un navegador de forma convencional.
 
-Las tareas incluyeron:
+Las tareas realizadas incluyeron:
 
 * Implementación de Web App Manifest.
 * Incorporación de iconografía específica.
 * Registro de Service Workers.
 * Configuración para Android e iOS.
 * Gestión de recursos estáticos.
+* Validación del funcionamiento en modo standalone.
+
+#### Instalación como PWA
+
+Video demostrativo del proceso de instalación:
+
+[▶ Ver video de instalación PWA](Multimedia/Videos/Inclu-ia%20-%20instalacion%20PWA.mp4)
+
+#### Ejecución como aplicación instalada
+
+![PWA ejecutándose en macOS](Multimedia/Capturas/Webapp%20MACOS.jpeg)
+
+La imagen muestra la aplicación ejecutándose como una Progressive Web App instalada en macOS, funcionando de manera independiente del navegador y validando correctamente la configuración del manifest y los service workers.
 
 ---
 
@@ -268,18 +281,7 @@ Las pruebas incluyeron:
 * Compatibilidad visual.
 * Estabilidad de conexión.
 
-Las evidencias de validación incluyen capturas de funcionamiento en Android, iOS, Windows y macOS, además de pruebas de instalación como PWA y verificación de las funcionalidades de accesibilidad implementadas.
-
-### Material adjunto sugerido
-
-* Captura de funcionamiento en Android.
-* Captura de funcionamiento en iOS.
-* Captura de funcionamiento en Windows.
-* Captura de funcionamiento en macOS.
-* Video corto de instalación como PWA en Android.
-* Captura del menú de accesibilidad.
-* Captura del modo OLED.
-* Captura del modo de alto contraste.
+Las evidencias gráficas y material audiovisual generado durante las pruebas se encuentran disponibles dentro del directorio `Multimedia/`.
 
 ---
 
