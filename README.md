@@ -148,13 +148,21 @@ Se incorporaron distintas opciones de visualización.
 
 Permite adaptar la lectura a las necesidades de cada usuario.
 
-#### Alto contraste
+![Cambio de tamaño de letra](Multimedia/Ajustes-font.gif)
 
-Mejora la legibilidad en condiciones de iluminación adversas.
+#### Modos de visualización
 
-#### Modo OLED
+La interfaz incorpora distintos esquemas visuales seleccionables desde el menú de configuración, permitiendo adaptar la experiencia de lectura según las preferencias y necesidades de cada usuario.
 
-Se implementó un esquema visual con fondo completamente negro orientado a pantallas OLED y AMOLED, mejorando el confort visual durante usos prolongados.
+Los modos disponibles son:
+
+* **Modo estándar:** esquema visual equilibrado para uso general.
+* **Modo de alto contraste:** maximiza la diferenciación entre texto y fondo para mejorar la legibilidad.
+* **Modo OLED:** utiliza fondo completamente negro, optimizado para pantallas OLED y AMOLED, reduciendo el consumo energético y mejorando el confort visual durante usos prolongados.
+
+La siguiente animación muestra el cambio entre los distintos modos de visualización implementados:
+
+![Modos de visualización](Multimedia/Ajustes-contraste.gif)
 
 #### Persistencia de preferencias
 
@@ -184,9 +192,9 @@ Las tareas realizadas incluyeron:
 
 #### Instalación como PWA
 
-Video demostrativo del proceso de instalación:
+Video demostrativo del proceso de instalación y utilización de la aplicación como PWA:
 
-[▶ Ver video de instalación PWA](Multimedia/Videos/Inclu-ia%20-%20instalacion%20PWA.mp4)
+[![Ver video de instalación PWA](https://img.youtube.com/vi/n4hEityrUS8/maxresdefault.jpg)](https://youtube.com/shorts/n4hEityrUS8)
 
 #### Ejecución como aplicación instalada
 
